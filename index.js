@@ -19,4 +19,13 @@ function checkPrime(num) {
  console.log(checkPrime(10)); 
  console.log(checkPrime(13)); 
 
+function evenOdd(num){
+    if (num%2==0){
+        console.log("true")
+    }
+    else{
+        console.log("false")
+    }
+}
 
+evenOdd(2)
